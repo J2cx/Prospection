@@ -1,0 +1,87 @@
+/* 
+    Document   : styles
+    Created on : 16 déc. 2011, 15:54:32
+    Author     : weizhe.jiao
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@import "../runo/styles.css";
+
+.v-captiontext {
+    font-weight: bold;
+}
+
+.v-textfield.v-readonly {
+    font-style: italic;
+}
+
+
+
+.v-menubar
+{
+    width: 100%;
+    height:100%;
+    font-size: 15px;
+    /*background-color: #5daee8;*/
+}
+.gwt-MenuItem
+{
+    font-size: 15px;
+}
+
+.v-button {
+      display: block;
+      text-align:left;
+}
+
+.v-button img {
+      display: block;
+      margin-left: 0px;
+}
+
+.v-icon{
+    
+    margin: auto;
+}
+
+.DeniminationTextField{
+    font-weight:bold;
+}
+
+/* Lay the options horizontally */
+.oghorizon .v-select-option {
+    display: inline-block;
+}
+
+/* Avoid wrapping if the layout is too tight */
+.oghorizon {
+    white-space: nowrap;
+}
+
+/* Some extra spacing is needed */
+.oghorizon
+  .v-select-option.v-radiobutton {
+    padding-right: 10px;}
+
+  .layoutAgence .v-verticallayout{
+
+
+}
+/*
+.formAgence{
+    background-color: burlywood;
+}
+.formAnnonce{
+    background-color:lightskyblue;
+}*/
+
+.line{
+/*    position:relative;
+    left:100px;*/
+}
