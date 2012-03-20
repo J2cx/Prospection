@@ -5,7 +5,7 @@
         <servlet-class>com.vaadin.terminal.gwt.server.ApplicationServlet</servlet-class>
         <init-param>
             <param-name>application</param-name>
-            <param-value>com.example.vaadin.MyApplication</param-value>
+            <param-value>Prospection.vaadin.MyApplication</param-value>
         </init-param>
         <init-param>
                 <param-name>widgetset</param-name>
